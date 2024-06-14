@@ -1,9 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* 
-Fonte para parágrafo:
-font-family: "Outfit", sans-serif; 
+  Fonte para título:
+  font-family: "Young Serif", serif; 
+*/
+h1,
+h2,
+h3 {
+    font-family: "Young Serif", serif;
+}
+/* 
+  Fonte para parágrafo:
+  font-family: "Outfit", sans-serif; 
+*/
+p,
+li,
+td {
+  font-family: "Outfit", sans-serif;
+}
+/* 
+# Tamanhos das fontes:
+  Título 1: 72px
+  Título 2: 42px
+  Título 3: 30px
+  Parágrafo: 20px
+  Item da lista: 20px
+  Dado da tabela: 20px
+
+# Cores usadas:
+  Preto: #000
+  Marrom claro: hsl(30, 10%, 34%) // Hue (tom), Saturation (saturação) 
+  e Lightness (luminosidade)
+  Rosa claro: hsl(330, 100%, 98%)
+  Telha: hsl(14, 45%, 36%)
+  Rosê: hsl(332, 51%, 32%)
 */
 
-/* 
-Fonte para título:
-font-family: "Young Serif", serif; 
-*/
+body {
+  margin: 5%;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.omelete {
+  width: 100%;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 42px;
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+p,
+li,
+td {
+  font-size: 20px;
+}
+
+li {
+  margin-left: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr + tr {
+  border-top: 1px solid black;
+}
+
+td + td {
+  color: hsl(14, 45%, 36%);
+  margin-left: 50%;
+  font-weight: bold;
+}
+
+.dumb {
+  margin-left: 47.2%;
+}
+
+.dumber {
+  margin-left: 49.7%;
+}
+
+.dumbest {
+  margin-left: 49.7%;
+}
+
+td {
+  color: hsl(30, 10%, 34%);
+}
+
+tr {
+  display: flex;
+  padding: 1%;
+}
+
+div {
+  color: hsl(332, 51%, 32%);
+  background-color: hsl(330, 100%, 98%);
+  margin: 10px 0;
+  padding: 2%;
+}
+
+div ul {
+  color: hsl(30, 10%, 34%);
+  margin-left: 3%;
+  margin-top: 1%;
+}
