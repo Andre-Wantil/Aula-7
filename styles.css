@@ -8,8 +8,7 @@
   font-family: "Young Serif", serif; 
 */
 h1,
-h2,
-h3 {
+h2 {
     font-family: "Young Serif", serif;
 }
 /* 
@@ -18,7 +17,8 @@ h3 {
 */
 p,
 li,
-td {
+td,
+h3 {
   font-family: "Outfit", sans-serif;
 }
 /* 
